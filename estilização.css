@@ -1,0 +1,305 @@
+.box_shadow{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.albumcover {
+    width: 316px;
+    height: 316px;
+}
+body {
+    height: 1309px;
+    width: auto;
+    margin: 0px;
+}
+a{
+    color: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;   
+}
+table {
+    font-size: larger;
+    width: 400px !important;
+    margin: auto;
+    background-color:#BF7E6F;
+    border-color: #734A3C;
+    color:#D9D0D0;
+}
+#introducao {
+    background-color: #D9D0D0;
+    margin-top: 0;
+    color: #024059;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: 1170.250px;
+}
+h1 {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+}
+#textointroducao1 {
+    color: #03738C;
+    padding: 0;
+    margin-top:5px;
+}
+#bastard { 
+    background-color: #8C0303;
+    margin-top: 0;
+    color: #E5F8FF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+.titulo_bastard {
+    color: #05C7F2;
+    padding: 3px;
+}
+#musicas_bt {
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3px;
+    display: block;
+    border: 2px solid #05C7F2;
+}
+.bastard_button{
+    border:2px solid #05C7F2;
+    border-radius: 4px;
+    background-color:#8C0303;
+    color: #E5F8FF; 
+    font-size: large; 
+    margin: 10px;
+}
+.bastard_button:hover{
+    background-color:#05C7F2;
+    color: #E5F8FF;
+    border: none;
+    border-radius:4px;
+    font-size: large;
+    margin: 12px;
+}
+#goblin { 
+    background-color: #012E40;
+    margin-top: 0;
+    color: #F2EFC2;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+.titulo_goblin {
+    color: #62D9B7;
+    padding-top: 5px;
+}
+#musicas_gl {
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3px;
+    display: block;
+    border: 2px solid #025159;
+}
+.goblin_button{
+    border:2px solid #62D9B7;
+    border-radius: 4px;
+    background-color:#025159;
+    color: #E5F8FF; 
+    font-size: large; 
+    margin: 10px;
+}
+.goblin_button:hover{
+    background-color:#308C8C;
+    color: #E5F8FF;
+    border: none;
+    border-radius:4px;
+    font-size: large;
+    margin: 12px;
+}
+#wolf { 
+    background-color: #595625;
+    margin-top: 0;
+    color: #BFBD9F;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+.titulo_wolf {
+    color: #260101;
+    padding-top: 5px;
+}
+#musicas_wf {
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3px;
+    display: block;
+    border: 2px solid #59341E;
+}
+.wolf_button{
+    border:2px solid #59341E;
+    border-radius: 4px;
+    background-color:#260101;
+    color: #BFBD9F; 
+    font-size: large; 
+    margin: 10px;
+}
+.wolf_button:hover{
+    background-color:#59341E;
+    color: #BFBD9F;
+    border: none;
+    border-radius:4px;
+    font-size: large;
+    margin: 12px;
+}
+#cherry_bomb { 
+    background-color: #A62940;
+    margin-top: 0;
+    color: #4ABFD9;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+.titulo_cb {
+    color: #D9B95B;
+    padding-top: 5px;
+}
+#musicas_cb {
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3px;
+    display: block;
+    border: 2px solid #D9B95B;
+}
+.cb_button{
+    border:2px solid #D9B95B;
+    border-radius: 4px;
+    background-color:#A62940;
+    color: #4ABFD9; 
+    font-size: large; 
+    margin: 10px;
+}
+.cb_button:hover{
+    background-color:#D9B95B;
+    color: #A62940;
+    border: none;
+    border-radius:4px;
+    font-size: large;
+    margin: 12px;
+}
+#flower_boy { 
+    background-color: #F2911B;
+    margin-top: 0;
+    color: #BF1B1B;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+.titulo_fb {
+    color: #732E07;
+    padding-top: 5px;
+}
+#musicas_fb {
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3px;
+    display: block;
+    border: 2px solid #F24B0F;
+}
+.fb_button{
+    border:2px solid #F24B0F;
+    border-radius: 4px;
+    background-color:#F2911B;
+    color: #BF1B1B; 
+    font-size: large; 
+    margin: 10px;
+}
+.fb_button:hover{
+    background-color:#BF1B1B;
+    color:#F2D194;
+    border: none;
+    border-radius:4px;
+    font-size: large;
+    margin: 12px;
+}
+#igor { 
+    background-color: #F2B3CA;
+    margin-top: 0;
+    color: #403C3B;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+.titulo_ig {
+    color: #26010B;
+    padding-top: 5px;
+}
+#musicas_ig {
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3px;
+    display: block;
+    border: 2px solid #8C5A6C;
+}
+.ig_button{
+    border:2px solid #8C5A6C;
+    border-radius: 4px;
+    background-color:#F2B3CA;
+    color: #403C3B; 
+    font-size: large; 
+    margin: 10px;
+}
+.ig_button:hover{
+    background-color:#26010B;
+    color:#F2D5E0;
+    border: none;
+    border-radius:4px;
+    font-size: large;
+    margin: 12px;
+}
+#cmiygl { 
+    background-color: #73413D;
+    margin-top: 0;
+    color: #F2EBDF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+.titulo_cmiygl {
+    color: #B3D9AD;
+    padding-top: 5px;
+}
+#musicas_cmiygl {
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3px;
+    display: block;
+    border: 2px solid #F2EBDF;
+}
+.cmiygl_button{
+    border:2px solid #B3D9AD;
+    border-radius: 4px;
+    background-color:#73413D;
+    color: #B3D9AD; 
+    font-size: large; 
+    margin: 10px;
+}
+.cmiygl_button:hover{
+    background-color: #F2EBDF;
+    color:#73413D;
+    border: none;
+    border-radius:4px;
+    font-size: large;
+    margin: 12px;
+}
