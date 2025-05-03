@@ -1,3 +1,34 @@
+:root{
+    --introducao1: #F2D5E0;
+    --introducao2: #03738C;
+    --introducao3: #024059;
+    --table1: #BF7E6F;
+    --table2: #734A3C;
+    --bastard1: hsl(0, 96%, 28%);
+    --bastard2: #E5F8FF;
+    --bastard3: #05C7F2;
+    --bastard4: #8C0303;
+    --goblin1: #012E40;
+    --goblin2: #F2EFC2;
+    --goblin3: #308C8C;
+    --wolf1: #595625;
+    --wolf2: #BFBD9F;
+    --wolf3: #59341E;
+    --cb1: #A62940;
+    --cb2: #4ABFD9;
+    --cb3: #D9B95B;
+    --fb1: #F2911B;
+    --fb2: #BF1B1B;
+    --fb3: #732E07;
+    --fb4: #F24B0F;
+    --igor1: #F2B3CA;
+    --igor2: #403C3B;
+    --igor3: #26010B;
+    --igor4: #8C5A6C;
+    --cmiygl1: #73413D;
+    --cmiygl2: #F2EBDF;
+    --cmiygl3: #B3D9AD;
+}
 .box_shadow{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -19,14 +50,14 @@ table {
     font-size: larger;
     width: 400px !important;
     margin: auto;
-    background-color:#BF7E6F;
-    border-color: #734A3C;
-    color:#D9D0D0;
+    background-color:var(--table1);
+    border-color: var(--table2);
+    color:var(--introducao1);
 }
 #introducao {
-    background-color: #D9D0D0;
+    background-color: var(--introducao1);
     margin-top: 0;
-    color: #024059;
+    color: var(--introducao3);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
@@ -40,21 +71,21 @@ h1 {
     height: auto;
 }
 #textointroducao1 {
-    color: #03738C;
+    color: var(--introducao2);
     padding: 0;
     margin-top:5px;
 }
 #bastard { 
-    background-color: #8C0303;
+    background-color: var(--bastard1);
     margin-top: 0;
-    color: #E5F8FF;
+    color: var(--bastard2);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
     height: auto;
 }
 .titulo_bastard {
-    color: #05C7F2;
+    color: var(--bastard3);
     padding: 3px;
 }
 #musicas_bt {
@@ -63,28 +94,28 @@ h1 {
     margin-right: 40%;
     margin-bottom: 3px;
     display: block;
-    border: 2px solid #05C7F2;
+    border: 2px solid var(--bastard3);
 }
 .bastard_button{
-    border:2px solid #05C7F2;
+    border:2px solid var(--bastard3);
     border-radius: 4px;
-    background-color:#8C0303;
-    color: #E5F8FF; 
+    background-color: var(--bastard4);
+    color: var(--bastard2); 
     font-size: large; 
     margin: 10px;
 }
 .bastard_button:hover{
-    background-color:#05C7F2;
-    color: #E5F8FF;
+    background-color:var(--bastard3);
+    color: var(--bastard2);
     border: none;
     border-radius:4px;
     font-size: large;
     margin: 12px;
 }
 #goblin { 
-    background-color: #012E40;
+    background-color: var(--goblin1);
     margin-top: 0;
-    color: #F2EFC2;
+    color: var(--goblin2);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
@@ -106,22 +137,22 @@ h1 {
     border:2px solid #62D9B7;
     border-radius: 4px;
     background-color:#025159;
-    color: #E5F8FF; 
+    color: var(--bastard2); 
     font-size: large; 
     margin: 10px;
 }
 .goblin_button:hover{
-    background-color:#308C8C;
-    color: #E5F8FF;
+    background-color:var(--goblin3);
+    color: var(--bastard2);
     border: none;
     border-radius:4px;
     font-size: large;
     margin: 12px;
 }
 #wolf { 
-    background-color: #595625;
+    background-color: var(--wolf1);
     margin-top: 0;
-    color: #BFBD9F;
+    color: var(--wolf2);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
@@ -137,10 +168,10 @@ h1 {
     margin-right: 40%;
     margin-bottom: 3px;
     display: block;
-    border: 2px solid #59341E;
+    border: 2px solid var(--wolf3);
 }
 .wolf_button{
-    border:2px solid #59341E;
+    border:2px solid var(--wolf3);
     border-radius: 4px;
     background-color:#260101;
     color: #BFBD9F; 
@@ -148,7 +179,7 @@ h1 {
     margin: 10px;
 }
 .wolf_button:hover{
-    background-color:#59341E;
+    background-color:var(--wolf3);
     color: #BFBD9F;
     border: none;
     border-radius:4px;
@@ -156,16 +187,16 @@ h1 {
     margin: 12px;
 }
 #cherry_bomb { 
-    background-color: #A62940;
+    background-color: var(--cb1);
     margin-top: 0;
-    color: #4ABFD9;
+    color: var(--cb2);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
     height: auto;
 }
 .titulo_cb {
-    color: #D9B95B;
+    color: var(--cb3);
     padding-top: 5px;
 }
 #musicas_cb {
@@ -174,35 +205,35 @@ h1 {
     margin-right: 40%;
     margin-bottom: 3px;
     display: block;
-    border: 2px solid #D9B95B;
+    border: 2px solid var(--cb3);
 }
 .cb_button{
-    border:2px solid #D9B95B;
+    border:2px solid var(--bastard3);
     border-radius: 4px;
-    background-color:#A62940;
-    color: #4ABFD9; 
+    background-color:var(--cb1);
+    color: var(--cb2); 
     font-size: large; 
     margin: 10px;
 }
 .cb_button:hover{
-    background-color:#D9B95B;
-    color: #A62940;
+    background-color:var(--cb3);
+    color: var(--cb1);
     border: none;
     border-radius:4px;
     font-size: large;
     margin: 12px;
 }
 #flower_boy { 
-    background-color: #F2911B;
+    background-color: var(--fb1);
     margin-top: 0;
-    color: #BF1B1B;
+    color: var(--fb2);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
     height: auto;
 }
 .titulo_fb {
-    color: #732E07;
+    color: var(--fb3);
     padding-top: 5px;
 }
 #musicas_fb {
@@ -211,18 +242,18 @@ h1 {
     margin-right: 40%;
     margin-bottom: 3px;
     display: block;
-    border: 2px solid #F24B0F;
+    border: 2px solid var(--fb4);
 }
 .fb_button{
-    border:2px solid #F24B0F;
+    border:2px solid var(--fb4);
     border-radius: 4px;
-    background-color:#F2911B;
-    color: #BF1B1B; 
+    background-color:var(--fb1);
+    color: var(--fb2); 
     font-size: large; 
     margin: 10px;
 }
 .fb_button:hover{
-    background-color:#BF1B1B;
+    background-color:var(--fb2);
     color:#F2D194;
     border: none;
     border-radius:4px;
@@ -230,16 +261,16 @@ h1 {
     margin: 12px;
 }
 #igor { 
-    background-color: #F2B3CA;
+    background-color: var(--igor1);
     margin-top: 0;
-    color: #403C3B;
+    color: var(--igor2);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
     height: auto;
 }
 .titulo_ig {
-    color: #26010B;
+    color: var(--igor3);
     padding-top: 5px;
 }
 #musicas_ig {
@@ -248,35 +279,35 @@ h1 {
     margin-right: 40%;
     margin-bottom: 3px;
     display: block;
-    border: 2px solid #8C5A6C;
+    border: 2px solid var(--igor4);
 }
 .ig_button{
-    border:2px solid #8C5A6C;
+    border:2px solid var(--igor4);
     border-radius: 4px;
-    background-color:#F2B3CA;
-    color: #403C3B; 
+    background-color:var(--igor1);
+    color: var(--igor2); 
     font-size: large; 
     margin: 10px;
 }
 .ig_button:hover{
-    background-color:#26010B;
-    color:#F2D5E0;
+    background-color:var(--igor3);
+    color:var(--introducao1);
     border: none;
     border-radius:4px;
     font-size: large;
     margin: 12px;
 }
 #cmiygl { 
-    background-color: #73413D;
+    background-color: var(--cmiygl1);
     margin-top: 0;
-    color: #F2EBDF;
+    color: var(--cmiygl2);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
     height: auto;
 }
 .titulo_cmiygl {
-    color: #B3D9AD;
+    color: var(--cmiygl3);
     padding-top: 5px;
 }
 #musicas_cmiygl {
@@ -285,19 +316,19 @@ h1 {
     margin-right: 40%;
     margin-bottom: 3px;
     display: block;
-    border: 2px solid #F2EBDF;
+    border: 2px solid var(--cmiygl2);
 }
 .cmiygl_button{
-    border:2px solid #B3D9AD;
+    border:2px solid var(--cmiygl3);
     border-radius: 4px;
-    background-color:#73413D;
-    color: #B3D9AD; 
+    background-color:var(--cmiygl1);
+    color: var(--cmiygl3); 
     font-size: large; 
     margin: 10px;
 }
 .cmiygl_button:hover{
-    background-color: #F2EBDF;
-    color:#73413D;
+    background-color: var(--cmiygl2);
+    color:var(--cmiygl1);
     border: none;
     border-radius:4px;
     font-size: large;
